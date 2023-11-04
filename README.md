@@ -53,7 +53,7 @@ pada tugas ke-2 merupakan membuat sebuah program bebas yang menggunakan if else 
 Program ini meminta pengguna untuk menebak angka antara 1 dan 10, memberikan petunjuk apakah angka yang ditebak terlalu besar atau terlalu kecil, dan mencetak jumlah percobaan yang dibutuhkan untuk menebak dengan benar. Program akan terus berjalan sampai pengguna menebak angka dengan benar.
 
 
-##_3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan_
+## _3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan_
 
 Tugas ke-3 merupakan sebuah program zodiac yang dapat menampilkan zodiac sesuai tanggal lahir dan bulan dari program tersebut dengan menggunakan input sebagai berikut :
 
@@ -73,7 +73,7 @@ Tugas ke-3 merupakan sebuah program zodiac yang dapat menampilkan zodiac sesuai 
 Program ini meminta pengguna untuk memasukkan tanggal lahir dalam format "dd mm", kemudian menentukan zodiak berdasarkan input tersebut dan mencetak hasilnya ke output.
 
 
-##_4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for_
+## _4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for_
 
 Pada tugas ke-4 membuat sebuah variabel dengan tipe data array, dan ditampilkan dengan menggunakan looping for, yakni dengan cara input sebagai berikut :
 
