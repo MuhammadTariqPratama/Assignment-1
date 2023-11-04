@@ -26,6 +26,7 @@ Tugas 1 merupakan perulangan hingga 100 menggunakan Java dengan menggunakan inpu
 8. 
 Jadi, kode ini akan mencetak angka dari 1 hingga 9 ke layar, dan kemudian mencetak kata "Tariq" dari 10 hingga 100.
 
+
 ## _2. Buatlah program bebas, dengan menerapkan if else dalam perulangan while_
 
 pada tugas ke-2 merupakan membuat sebuah program bebas yang menggunakan if else dengan perulangan while, disini saya akan membuat program tebak angka dengan menggunakan input sebagai berikut :
@@ -51,3 +52,45 @@ pada tugas ke-2 merupakan membuat sebuah program bebas yang menggunakan if else 
 
 Program ini meminta pengguna untuk menebak angka antara 1 dan 10, memberikan petunjuk apakah angka yang ditebak terlalu besar atau terlalu kecil, dan mencetak jumlah percobaan yang dibutuhkan untuk menebak dengan benar. Program akan terus berjalan sampai pengguna menebak angka dengan benar.
 
+
+##_3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan_
+
+Tugas ke-3 merupakan sebuah program zodiac yang dapat menampilkan zodiac sesuai tanggal lahir dan bulan dari program tersebut dengan menggunakan input sebagai berikut :
+
+1. `import java.util.Scanner;`: Baris ini mengimpor kelas `Scanner` dari paket `java.util`, untuk membaca input dari pengguna.
+2. `public class tugas3zodiac {}`: Program dimulai dengan mendefinisikan kelas Java dengan nama `tugas3zodiac`.
+3. `public static void main(String[] args) {}`: Setiap program Java harus memiliki method `main` yang merupakan titik masuk eksekusi program.
+4. `Scanner scanner = new Scanner(System.in);`: Sebuah objek `Scanner` dibuat untuk membaca input dari pengguna.
+5. `System.out.println("Masukkan tanggal lahir Anda (Format=dd mm): ");`: Pesan ini meminta pengguna untuk memasukkan tanggal lahir dalam format "dd mm".
+6. `String[] date = scanner.nextLine().split(" ");`: Program membaca input pengguna sebagai string, memisahkan string tersebut menggunakan spasi, dan menyimpan hasilnya dalam array `date`.
+7. `int day = Integer.parseInt(date[0]);`: Mengonversi string pertama dari array `date` (representasi tanggal) menjadi bilangan bulat dan menyimpannya dalam variabel `day`.
+8. `int month = Integer.parseInt(date[1]);`: Mengonversi string kedua dari array `date` (representasi bulan) menjadi bilangan bulat dan menyimpannya dalam variabel `month`.
+9. `String zodiacSign = findZodiacSign(day, month);`: Memanggil fungsi `findZodiacSign` dengan parameter `day` dan `month` dan menyimpan hasilnya dalam variabel `zodiacSign`.
+10. `System.out.println("Zodiak Anda adalah: " + zodiacSign);`: Mencetak zodiak yang ditemukan.
+11. `private static String findZodiacSign(int day, int month) {`: Mendefinisikan fungsi `findZodiacSign` dengan dua parameter: `day` dan `month`. Fungsi ini mengembalikan string yang mewakili zodiak berdasarkan tanggal lahir yang diberikan.
+12. Blok `if-else`: Fungsi ini menggunakan serangkaian pernyataan `if-else` untuk menentukan zodiak berdasarkan nilai `day` dan `month` yang diberikan.
+
+Program ini meminta pengguna untuk memasukkan tanggal lahir dalam format "dd mm", kemudian menentukan zodiak berdasarkan input tersebut dan mencetak hasilnya ke output.
+
+
+##_4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for_
+
+Pada tugas ke-4 membuat sebuah variabel dengan tipe data array, dan ditampilkan dengan menggunakan looping for, yakni dengan cara input sebagai berikut :
+
+1. `public class tugas4 {}`: Program dimulai dengan mendefinisikan kelas Java dengan nama `tugas4`.
+2. `public static void main(String[] args) {}`: Setiap program Java harus memiliki method `main` yang merupakan titik masuk eksekusi program.
+3. `int[] array = new int[5];`: Sebuah array `array` dengan panjang 5 elemen (indeks 0 hingga 4) dibuat. Array ini akan menyimpan bilangan bulat.
+4. `for (int i = 0; i < array.length; i++) {}`: Memulai loop `for` yang akan menginisialisasi variabel `i` dengan 0 dan akan dijalankan selama nilai `i` kurang dari panjang array (`array.length`).
+5. `array[i] = i + 1;`: Pada setiap iterasi loop, nilai array pada indeks `i` diisi dengan nilai `i + 1`. Ini berarti array akan berisi nilai 1, 2, 3, 4, dan 5 setelah loop ini selesai dieksekusi.
+6. `for (int i = 0; i < array.length; i++) {`: Memulai loop `for` kedua yang akan menginisialisasi variabel `i` dengan 0 dan akan dijalankan selama nilai `i` kurang dari panjang array (`array.length`).
+7. `System.out.println("Array ke-" + i + " adalah " + array[i]);`: Pada setiap loop, program mencetak pesan yang berisi indeks array (`i`) dan nilai pada indeks tersebut (`array[i]`). Ini akan mencetak isi array ke layar.
+   
+Program ini membuat sebuah array dengan panjang 5, mengisi elemennya dengan nilai 1 sampai 5, dan kemudian mencetak indeks dan nilai masing-masing elemen array ke layar.
+
+```
+Array ke-0 adalah 1
+Array ke-1 adalah 2
+Array ke-2 adalah 3
+Array ke-3 adalah 4
+Array ke-4 adalah 5
+```
