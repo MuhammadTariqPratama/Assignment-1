@@ -23,7 +23,7 @@ Tugas 1 merupakan perulangan hingga 100 menggunakan Java dengan menggunakan inpu
 5. `System.out.println(i);`: Jika kondisi pada baris sebelumnya benar (nilai `i` kurang dari atau sama dengan 9), maka pernyataan ini akan mencetak nilai `i` ke layar.
 6. `else {`: Jika kondisi tidak terpenuhi (nilai `i` lebih besar dari 9), program akan melakukan apa yang ada di dalam blok `else`.
 7. `System.out.println("Tariq");`: Pernyataan ini akan mencetak kata "Tariq" ke layar saat `i` lebih besar dari 9.
-8. 
+   
 Jadi, kode ini akan mencetak angka dari 1 hingga 9 ke layar, dan kemudian mencetak kata "Tariq" dari 10 hingga 100.
 
 
