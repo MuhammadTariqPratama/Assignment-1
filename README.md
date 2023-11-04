@@ -86,11 +86,3 @@ Pada tugas ke-4 membuat sebuah variabel dengan tipe data array, dan ditampilkan 
 7. `System.out.println("Array ke-" + i + " adalah " + array[i]);`: Pada setiap loop, program mencetak pesan yang berisi indeks array (`i`) dan nilai pada indeks tersebut (`array[i]`). Ini akan mencetak isi array ke layar.
    
 Program ini membuat sebuah array dengan panjang 5, mengisi elemennya dengan nilai 1 sampai 5, dan kemudian mencetak indeks dan nilai masing-masing elemen array ke layar.
-
-```
-Array ke-0 adalah 1
-Array ke-1 adalah 2
-Array ke-2 adalah 3
-Array ke-3 adalah 4
-Array ke-4 adalah 5
-```
